@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  justify-content: end;
+}
+.header__tabs {
+  display: flex;
+  margin: 0 0 2rem 0;
+}
+.header__nav {
+  cursor: pointer;
+  color: rgb(247, 107, 26);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 0 0 2rem;
+}
+.header__nav.is-active {
+  color: $text-color;
+  opacity: .5;
+}
